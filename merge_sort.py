@@ -44,7 +44,10 @@ def merge_the_lists(tempDizi: list, solDizi: list, sagDizi: list) -> None:
         k = k+1
 
 
-unsortedArray = [88, 99, 44, -121, -1, 0, 0, -1, 15.6, 9, 777, -444]
+unsortedArray = [16, 21, 11, 8, 12, 22]
 
 merge_sort(unsortedArray)
 print(unsortedArray)
+
+
+# Merge Sort işleminde Big-O notasyonu O(nlogn) gider
